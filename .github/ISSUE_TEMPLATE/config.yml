@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📣 Discussions — Ask Questions & Brainstorm
+    url: https://github.com/auvril/neural-network-design-patterns/discussions
+    about: Please use GitHub Discussions for open questions, brainstorming, and general conversation.
+  - name: 📄 Contribution Guidelines
+    url: https://github.com/auvril/neural-network-design-patterns/blob/main/CONTRIBUTING.md
+    about: Read this before proposing a pattern or chapter.
+  - name: 📘 Pattern Template
+    url: https://github.com/auvril/neural-network-design-patterns/blob/main/pattern-template.md
+    about: Use this structure when documenting a new pattern.

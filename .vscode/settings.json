@@ -1,0 +1,42 @@
+{
+    // Markdown-specific editor settings
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.markdownlint": "explicit"
+        }
+    },
+
+    // Markdownlint configuration
+    "markdownlint.config": {
+        "MD013": false,
+        "MD041": false,
+        // MD003: Configure heading style (atx, setext, atx_closed)
+        "MD003": { "style": "atx" },
+        // MD007: Configure unordered list indentation
+        "MD007": { "indent": 2 },
+        // MD009: Configure trailing spaces (allow 2 for line breaks)
+        "MD009": { "br_spaces": 2 },
+        // MD024: Allow duplicate headers in different sections
+        "MD024": { "siblings_only": true },
+        // MD033: Allow specific HTML tags if needed
+        "MD033": { "allowed_elements": ["br", "sub", "sup"] }
+    },
+
+    // Alternative: Use a configuration file instead of inline config
+    // "markdownlint.configFile": "./.markdownlint.jsonc",
+
+    // Control when linting runs (default: "onType", alternative: "onSave")
+    "markdownlint.run": "onType",
+
+    // Focus mode - ignore issues near cursor (boolean or number of lines)
+    "markdownlint.focusMode": false,
+
+    // Custom rules (if you have additional rule packages)
+    // "markdownlint.customRules": [],
+
+    // Global vscode settings
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true
+}

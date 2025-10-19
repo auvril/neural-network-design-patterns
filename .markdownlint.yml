@@ -1,0 +1,8 @@
+default: true
+MD013: false # Disable line length for manuscript prose
+MD033: false # Allow raw HTML (for badges)
+MD041: false # License file and some docs may start without H1
+MD009:
+  strict: true
+MD029:
+  style: one
